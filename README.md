@@ -3,6 +3,8 @@
 **Desktop Pet** is a small **Python + PyQt5** desktop application that brings animated pets to your screen.  
 They walk, jump and can even be dragged with your mouse — all in real time!
 
+<img width="1732" height="799" alt="image" src="https://github.com/user-attachments/assets/b676858a-9d77-49b7-a564-f7c6754d6d3d" />
+
 ---
 
 ## Features
@@ -52,7 +54,7 @@ pip install -r requirements.txt
 ### Run the application
 
 ```bash
-python main.py
+python desktop-pet/src/main.py
 ```
 
 Three pets will appear on your desktop.  

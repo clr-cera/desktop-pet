@@ -45,7 +45,8 @@ class Pet(QLabel):
 
     def _setup_window(self):
         self.setGeometry(self.x, self.y, 128, 128)
-        self.setWindowTitle(f"Pet Window")
+        # Unique window title for each pet
+        self.setWindowTitle(f"Pet - {self.name.capitalize()}")
         self.setWindowFlags(
             Qt.FramelessWindowHint
             | Qt.WindowStaysOnTopHint
